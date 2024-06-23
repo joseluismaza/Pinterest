@@ -1,4 +1,3 @@
-// Importar el archivo de estilos CSS
 import './style.css';
 
 // Importar la API de Unsplash
@@ -19,7 +18,7 @@ const searchPhotos = async (keyword) => {
   return images;
 };
 
-// Función para generar el template del encabezado
+// HEADER
 const headerTemplate = () => {
   return `
       <h1>P</h1>
