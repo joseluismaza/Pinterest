@@ -294,6 +294,131 @@ main {
     grid-template-columns: repeat(6, 1fr);
   }
 }
+/* MEDIA HEADER */
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 0 1rem;
+  }
+  header > h1 {
+    width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+  }
+  header button {
+    height: 40px;
+    width: 40px;
+  }
+  header img {
+    height: 28px;
+    width: 28px;
+  }
+  header .profileimg {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 0 1rem;
+  }
+  header > h1 {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+  }
+  header button {
+    height: 20px;
+    width: 20px;
+  }
+  header img {
+    height: 15px;
+    width: 15px;
+  }
+  header .profileimg {
+    height: 20px;
+    width: 20px;
+  }
+
+  header input{
+    height: 20px;
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    padding: 0 1rem;
+  }
+  header > h1 {
+    width: 10px;
+    height: 15px;
+    font-size: 5px;
+    align-items: center;
+  }
+  header button {
+    height: 15px;
+    width: 15px;
+  }
+  header img {
+    height: 15px;
+    width: 15px;
+  }
+  header .profileimg {
+    height: 15px;
+    width: 15px;
+  }
+
+  header input{
+    height: 5px;
+    width: 5px;
+  }
+}
+
+/*MEDIA FILTROS */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 0 1rem;
+  }
+  header > h1 {
+    width: 30px;
+    height: 30px;
+    font-size: 1.5rem;
+  }
+  header button {
+    height: 40px;
+    width: 40px;
+  }
+  header img {
+    height: 28px;
+    width: 28px;
+  }
+  header .profileimg {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .filtros{
+    display: grid;
+    padding: 10px;
+    gap: 10px;
+    justify-content: left;
+  }
+
+  .filtros > div{
+   width: auto;
+   font-size: 12px;
+   text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
 
 /* FOOTER */
 footer {
